@@ -1,0 +1,139 @@
+//
+// Placeholder media queries for responsive design. Modify as design requires.
+// These follow after, and will override, the primary ('mobile first') styles
+// The closing /mediaquery comment is required by respond.js min/max-width Media Query polyfill
+//
+
+@media only screen and (max-width: 960px) {
+.wrapper,
+#main #featured,
+#content{width:100%;}
+
+#mainillustration{display:none;}
+
+#heading h1{font-size:3em; padding-left: 1%; width:98%;}
+
+#main #featured{ margin-left: 2%;}
+#header #mainnav{
+	width:70%;
+	li{
+		font-size:.85em;
+		margin: 0 5px;
+	}
+}
+
+#featured #works h1{bottom:-55px;}
+
+#getintouch{
+	margin: 50px 50px 0 0;
+}
+.flex-control-nav {width: 18%;}
+
+}
+
+@media only screen and (max-width: 600px) {
+  // Style adjustments for viewports 480px and over go here
+
+.wrapper{width:100%!important;}
+
+#header{z-index:100;}
+#header #mainnav{border:0; position:relative; margin:40px 0 0 8%; width:45%; float:left;} 
+#header #mainnav li{float:left; width:100%; padding:5px 10px 1px; background:#fff; border:1px solid #f5f5f5; margin:0; display:none!important;}
+#header #mainnav li:hover{border:1px solid $highlight2;}
+#header #mainnav li.facebook, #header #mainnav li.twitter, #header #mainnav li.rss,
+#header #mainnav li.facebook a, #header #mainnav li.twitter a, #header #mainnav li.rss a{background:#fff; text-indent:0; width:100%; margin:0;}
+#header #mainnav li.facebook a:hover, #header #mainnav li.twitter a:hover, #header #mainnav li.rss a:hover{opacity:1;}
+#header #mainnav li a{width:90%; font-size:1.8em; padding:0;}
+#header #mainnav li:first-child, #header #mainnav.active li{display:block!important;}
+#mainnav li#rss{visibility:hidden; height:0;}
+
+#header #mainnav li.mobmenu{padding: 10px 10px;}
+.expand{position:absolute; display:block; width:45px; height:30px; background:#E0E0E0; border:1px solid #fff; right:-7%; top:3px;}
+	.expand:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000;
+    content: " ";
+    display:block;
+    height: 0;
+    width: 0;
+    position:relative;
+    top:11px;
+    left:30%;
+	}	
+
+
+#heading{
+	height:200px;
+	padding-bottom:15px;
+	h1{width:98%; margin:30px 1% 0;font-size:2.2em;}
+}
+#main{ 
+	padding-top:30px;
+	#featured{
+		width:98%;
+		padding:0 1%;
+		h2{
+			top:-20px;
+		}
+		#works{
+			width:95%;
+			h1{
+				font-size:1.3em;
+			}
+		}
+	}
+}
+#blog-hp {
+	margin-top:80px;
+	padding-bottom:0;
+	h2{
+		left:33%;
+	}
+	.article-snippet {
+		@include columns(12);
+		margin-bottom:20px;
+		h1{
+			margin-bottom:5px;
+		}
+	}
+}
+#blog .date{
+	position: relative;
+	top:0;
+}
+.single #blog .date, .single #blog .comments{
+	display: none;
+}
+#blog .comments a {
+	top: 11px;
+	left: 1.5%;
+	padding: 1% 10px;
+}
+
+#getintouch{
+	display:none;	
+}  
+
+#content{
+	width:100%;
+}
+#featured h2 {font-size:1.3em; padding: 10px 10px 9px;}
+
+
+#portfolio #main h1, #projects #main h1{padding-left: 2%;}
+
+#sidebar{width:100%; margin-top: 20px;}
+#sidebar li{width:29.1%;}
+.page-id-265 #sidebar, .page-id-267 #sidebar {display: none;}
+#portfolio #sidebar, #projects #sidebar { margin-top: 20px;}
+
+}/*/mediaquery*/
+
+
+
+// Print styles
+// Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+@media print {
+  @include media-print;
+}

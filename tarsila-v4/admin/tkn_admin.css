@@ -1,0 +1,17 @@
+.tkn_wrap h2 { margin-bottom: 10px; }
+.tkn_wrap h3.title { cursor: pointer; margin:10px 0 0 0!important; background: #e7e7e7; padding: 10px; font-family: Georgia, serif; font-weight: normal !important; letter-spacing: 1px; font-size: 18px; width:682px; }
+.tkn_wrap fieldset{ font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; background: #f9f9f9; border:1px solid #e7e7e7; margin-bottom: 20px; padding: 10px; width:680px;}
+.tkn_wrap fieldset h4{ float:left; clear:both; margin:0 0 5px 0; padding:0;}
+.tkn_wrap fieldset input, .tkn_wrap fieldset textarea{ width:600px;float:left; clear:both;margin-bottom: 20px;}
+.tkn_wrap fieldset textarea{ height:120px;}
+.tkn_wrap fieldset small{ float:left;margin:2px 0 0 20px; padding:0;}
+.warning { background: #FFEBE8; border: 1px dotted #CC0000; padding: 10px; color: #333; font-weight: bold; }
+
+.tkn_wrap .section_3 .wrap_opts{ float:left;} 
+.tkn_wrap .section_3 h4{ width:660px; float:left; clear:both;}
+.tkn_wrap .section_3 .wrap_opts input{ float:left;clear:none; width:250px} 
+.tkn_wrap .section_3 .wrap_opts small{ float:left; clear:none; width:50px; padding-left:10px;}
+
+#tkn_ucd1,#tkn_ucd2,#tkn_ucd3,#tkn_ucd4,#tkn_ucd5,#tkn_ucd6{ width:561px;}
+
+/*.js .tkn_wrap fieldset{display: none;}*/

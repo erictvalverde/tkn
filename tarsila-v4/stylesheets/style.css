@@ -1,0 +1,222 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+@font-face {font-family: 'colaboratelightregular'; src: url('fonts/ColabLig-webfont.eot'); src: url('fonts/ColabLig-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+/*
+@font-face {
+    font-family: 'colaboratelightregular';
+    src: url('fonts/ColabLig-webfont.eot');
+    src: url('fonts/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabLig-webfont.woff') format('woff'),
+         url('fonts/ColabLig-webfont.ttf') format('truetype'),
+         url('fonts/ColabLig-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body, select, input, textarea { color: #504d4d; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 1.428em; font-family: ComfortaaThin, Trebuchet MS , Sans-serif; }
+
+a, a:active, a:visited { color: #ff6c00; text-decoration: none; }
+
+a:hover { color: #d15902; }
+
+p{ line-height: 1.3em;}
+
+th { font-weight: bold; }
+
+small { font-size: 79%; }
+
+img { max-width: 100%; width: 100%; height: auto; }
+
+.ie8 #main img { width: 100%; }
+
+input, select, textarea { font-family: "colaboratelightregular",Trebuchet MS,sans-serif; line-height: 1.231; float: left; width: 94%; border: 1px solid #d4d4d4; padding: 7px; font-size: 1em; margin: 5px 0; -moz-box-shadow: -1px -1px 2px #ebebeb inset; -webkit-box-shadow: -1px -1px 2px #ebebeb inset; -o-box-shadow: -1px -1px 2px #ebebeb inset; box-shadow: -1px -1px 2px #ebebeb inset; }
+
+input[type=submit] { width: auto; cursor: pointer; background: #eebf31; color: white; border: 0; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; box-shadow: none; }
+
+input:invalid, textarea:invalid { -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; -ms-border-radius: 1px; -khtml-border-radius: 1px; border-radius: 1px; -moz-box-shadow: 0 0 5px 0 red; -webkit-box-shadow: 0 0 5px 0 red; -o-box-shadow: 0 0 5px 0 red; box-shadow: 0 0 5px 0 red; }
+
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+label { float: left; width: 100%; font: "colaboratelightregular", Trebuchet MS , Sans-serif; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+.notfound { margin-bottom: 20px; }
+
+body { background: #fff ; font-family: Trebuchet MS,sans-serif; font-size: 16px; line-height: 1.231; }
+
+.wrapper { max-width: 852px; margin: 0 auto; position: relative; float: none; }
+
+#header { }
+#header .heading{ position: relative; float: left;}
+#header .heading #logo{ position: absolute; background: transparent url(../images/tarsila-kruse.png) no-repeat; top: 20px; left: 3%; opacity: .65; text-indent: -9999px; overflow: hidden; width: 137px; height: 65px;}
+#header #mainnav { float: left; padding: 30px 1% 25px; width: 98%; border-bottom: 1px solid #65717a}
+#header #mainnav li { list-style-type: none; float: left; padding: 0 6.5% 0 4.5%; position: relative;}
+#header #mainnav li:first-child{padding-left: 0;}
+#header #mainnav li.page:after {
+	position: absolute;
+	content: "";
+	background: #eebf31;
+	width: 15px;
+	height: 15px;
+	top: 9px;
+	right: 0;
+	border-radius: 50px;
+}
+#header #mainnav li.social{padding: 0; margin: -5px 0 0 1.5%; float: right; }
+
+#header #mainnav li a{ font-family: "bebas_neueregular", arial, sans-serif; font-size: 29px}
+#header #mainnav li.social a{background: transparent url(../images/social-icons.gif) no-repeat; float: left; width: 45px; height: 46px; text-indent: -9999px; overflow: hidden;}
+
+#header #mainnav li.mail a { background-position: -163px 0}
+#header #mainnav li.instagram a { background-position: -107px 0}
+#header #mainnav li.twitter a { background-position: -53px 0}
+#header #mainnav li.facebook a { background-position: 0 0}
+
+
+/*Content  ///////////////////////////////////////////////////////////*/
+#content{
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+#main {
+	float: left; 
+	width: 69.1%;
+	padding-left: 1%;
+}
+#main p{
+	margin-bottom: 10px;
+}
+#main strong{
+	color: #000;
+}
+.post{
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #65717a;
+}
+.entry-title{
+	font: 45px "bebas_neueregular", arial, sans-serif;
+	color: #eebf31;
+	margin-left: -4px;
+}
+.meta{
+	font: 17px "colaboratelightregular", sans-serif;
+	color: #837d7d;
+	margin: 5px 0px 20px;
+}
+.entry-content img{
+	margin: 15px auto;
+	max-width: 100%;
+	display: block;
+}
+
+.type-page h1{
+	margin-bottom: 20px;
+}
+
+.pagination { float: left; width: 100%; margin-top: 5px; font: 1.2em bebas_neueregular, Trebuchet MS , Sans-serif; color: #EEBF31; }
+.pagination span, .pagination a { padding: 0 1%; text-shadow: 0 1px 0 white; }
+.pagination .oneof { padding: 0 1% 0 0; color: #FF6C00}
+
+
+#commetWrap {background: none repeat scroll 0 0 #F5F5F5;
+    float: left;
+    margin: 20px 0 30px;
+    padding: 2%;
+    width: 96%;}
+#commetWrap #comments, #commetWrap #postcomment { margin-bottom: 15px; font:29px bebas_neueregular, Arial , Sans-serif; color: #FF6C00; text-shadow: 0 1px 0 white; }
+#commetWrap #postcomment { float: left; width: 100%; border-top: 1px solid #d4d4d4; margin-top: 10px; padding: 10px 0; }
+#commetWrap li { list-style-type: none; float: left; width: 100%; padding: 10px 0; border-top: 1px solid #d4d4d4; }
+#commetWrap li img { float: left; margin: 0 1% 10px 0; }
+#commetWrap li p { float: none!important; width: auto!important; }
+#commetWrap li p.autor { clear: both; font-size: .8em; float: left!important; }
+#commetWrap input, #commetWrap textarea { width: 97%; }
+#commetWrap #submit { width: auto; }
+/**/
+
+/* sidebar //////////////////////////////////////////////////*/
+#sidebar {width: 26%; float: right; }
+.widget_text{margin-bottom: 35px; float: left;}
+.widget_text h2{font: 29px bebas_neueregular, Arial , Sans-serif; color: #ff9a50; width: 100%; margin-bottom: 15px; text-align: center}
+.widget_text a{margin-bottom: 20px; float: left; width: 100%}
+.widget_text a img{margin: 0 auto; display: block}
+#sidebar #text-5 img{width: auto}  
+
+/* sidebar //////////////////////////////////////////////////*/
+#footer {width: 100%; float: left; padding: 10px 0 12px; margin-top: 20px; border-top: 1px solid #e3e3e3 }
+
+@media only screen and (max-width: 852px) {
+	#header #mainnav li { padding: 0 2%;}
+	#header #mainnav li.page:after {display: none;}
+	#main{margin-left: 1%}
+	#sidebar{margin-right: 1%}
+}
+@media only screen and (max-width: 736px) {
+	#main, #sidebar{width: 96%; padding: 0 2%; margin: 0}
+	#sidebar{ margin-top: 50px;}
+	#sidebar .widget{width: 31%; margin: 0 1%}
+	#sidebar #text-5{width: 100%}
+	#text-5 a{ width: 31%; margin: 0 1%;}
+}
+@media only screen and (max-width: 640px) {
+	#header #mainnav li.page { width: 100%; margin:0 1% 5px; border-bottom: 1px solid #f5f5f5; padding: 0; text-align: center}
+	#header #mainnav li.social { width: 25%; margin-left: 0; margin-top: 10px;}
+	#header #mainnav li.social a{float: none; display: block; margin: 0 auto;}
+	#header #mainnav {padding: 5px 1% 25px;	}
+	#content {margin-top: 10px;}
+
+}
+@media only screen and (max-width: 420px) {
+
+ }
+/*/mediaquery*/
+@media print { * { background: transparent !important; color: black !important; text-shadow: none !important; filter: none !important; -ms-filter: none !important; }
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; } }

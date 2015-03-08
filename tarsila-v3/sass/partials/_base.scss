@@ -1,0 +1,48 @@
+// This file must be imported before loading html5-boilerplate
+
+// Grid ----------------------------------------------------------------------
+
+//960 fluid sizes
+$total-cols             : 12;
+$col-width              : 6.333%;
+$gutter-width           : 2.0%;
+$side-gutter-width      : $gutter-width / 2;
+$show-grid-backgrounds  : false;
+
+$base-font-family: unquote('Tahoma,Arial,sans-serif');  // default font-family
+
+$base-font-size: 14px;  // default font-size for YUI fonts
+
+$base-line-height: 1.231;  // default line-height for YUI fonts
+
+//$title-font: unquote('ComfortaaRegular, Trebuchet MS , Sans-serif'); // Title font-family
+
+$title-font-thin: unquote('ComfortaaThin, Trebuchet MS , Sans-serif'); // Title font-family
+
+$script-font: unquote('GoodDog, Trebuchet MS , Sans-serif');
+
+$font-color: #333;
+
+$link-color: #ed8882;
+
+$link-hover-color: #895b68;
+
+$link-active-color: #ed8882;
+
+$link-visited-color: #ed8882;
+
+$highlight: #25938d;
+$highlight2: #895b68;
+$highlight3: #EC7F78;
+$white: #fff;
+$light: #f1eeee;
+
+$selected-font-color: #fff;  // color for selected text
+
+$selected-background-color: #ff5E99;  // bg-color for selected text
+
+$image-sprite: transparent url(../images/images-sprite.png) no-repeat;
+
+$border:1px solid #d4d4d4
+
+//$list-left-margin: 2em;  // left margin for ul an ol

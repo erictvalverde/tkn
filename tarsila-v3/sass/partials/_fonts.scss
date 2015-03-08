@@ -1,0 +1,18 @@
+// font-face fonts
+// see http://compass-style.org/docs/reference/compass/css3/font_face/
+ 
+
+ //@include font-face("ComfortaaRegular", font-files("ComfortaaRegular.ttf", truetype), "ComfortaaRegular.eot");
+ //@include font-face("ComfortaaThin", font-files("ComfortaaThin.ttf", truetype), "ComfortaaThin.eot");
+ //@include font-face("GoodDog", font-files("GoodDog.ttf", truetype), "GoodDog.eot");
+
+@font-face {
+	font-family: 'ComfortaaThin';
+	src: url('fonts/ComfortaaThin.eot');
+	src: local('Comfortaa Thin'), local('Comfortaa-Thin'), url('fonts/ComfortaaThin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GoodDog';
+	src: url('fonts/GoodDog.eot');
+	src: local('Good-Dog'), local('Good-Dog'), url('fonts/GoodDog.ttf') format('truetype');
+}
